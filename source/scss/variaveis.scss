@@ -1,0 +1,20 @@
+$tema: 2;
+
+$cor-fundo-primaria: #FFF;
+$cor-fonte-primaria: green;
+$cor-fundo-secundaria: silver;
+$cor-fonte-secundaria: #0F0;
+
+
+@if $tema == 1 {
+	$cor-fundo-primaria: #FFF;
+	$cor-fonte-primaria: green;
+	$cor-fundo-secundaria: silver;
+	$cor-fonte-secundaria: #0F0;					
+
+} @else if $tema == 2 {
+	$cor-fundo-primaria: #000;
+	$cor-fonte-primaria: red;
+	$cor-fundo-secundaria: gold;
+	$cor-fonte-secundaria: orange;	
+}

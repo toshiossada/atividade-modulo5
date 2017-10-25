@@ -1,0 +1,7 @@
+@mixin tema-principal($color, $background, $border){
+	border: solid 1px;
+	border-color: $border;
+	color: $color;
+	background-color: $background;
+}
+ 

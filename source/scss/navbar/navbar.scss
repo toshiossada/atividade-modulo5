@@ -1,0 +1,46 @@
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	width:50%;
+	@include tema-principal($cor-fonte-primaria, $cor-fundo-primaria, $cor-fonte-primaria);
+
+
+	a.navbar-brand{
+		@include tema-principal($cor-fonte-primaria, $cor-fundo-primaria, $cor-fundo-primaria);
+
+
+		text-decoration: none;			
+
+		font-size: 3em;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 0;
+	}	
+
+	ul{
+		align-items: center;
+		justify-content: space-around;
+		display: flex;
+
+		li{
+			list-style-type:none;
+			text-transform: uppercase;
+			text-decoration: none;
+
+			margin:10px;
+			a{
+				@include tema-principal($cor-fonte-primaria, $cor-fundo-primaria, $cor-fundo-primaria);
+				padding: 10px;
+				text-decoration: none;
+
+			    &:hover {
+			    	@include tema-principal($cor-fonte-secundaria, $cor-fundo-secundaria, $cor-fundo-secundaria);
+			    }					
+			}
+		
+		}				
+	}	
+}
+
