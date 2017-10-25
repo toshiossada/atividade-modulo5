@@ -17,4 +17,9 @@ $cor-fonte-secundaria: #0F0;
 	$cor-fonte-primaria: red;
 	$cor-fundo-secundaria: gold;
 	$cor-fonte-secundaria: orange;	
+} @else if $tema == 3 {
+	$cor-fundo-primaria: #F00;
+	$cor-fonte-primaria: orange;
+	$cor-fundo-secundaria: silver;
+	$cor-fonte-secundaria: gold;	
 }
